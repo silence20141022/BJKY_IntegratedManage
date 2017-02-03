@@ -1,0 +1,56 @@
+v\:* { BEHAVIOR: url(#default#VML) } 
+.SetButton { BORDER-RIGHT: #646464 1px solid; BORDER-TOP: #646464 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: #646464 1px solid; WIDTH: 24px; CURSOR: hand; BORDER-BOTTOM: #646464 1px solid; HEIGHT: 18px; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: center } 
+.cntp
+{
+	position: absolute;
+	border: solid 1 red;
+	width: 5;
+	height: 5;
+	overflow: hidden;
+}
+.lnkp
+{
+	position: absolute;
+	cursor: move;
+	border: solid 1 red;
+	background-color: white;
+	width: 5;
+	height: 5;
+	overflow: hidden;
+}
+.midp
+{
+	position: absolute;
+	cursor: crosshair;
+	background-color: red;
+	width: 5;
+	height: 5;
+	overflow: hidden;
+}
+.step
+{
+	width: 80px;
+	height: 60px;
+	cursor: hand;
+	position: absolute;
+	border: solid 1 gray;
+}
+.stepbody
+{
+	font-size: 10pt;
+	color: red;
+	table-layout: fixed;
+}
+.editor
+{
+	width: 100%;
+	position: relative;
+	height: 100%;
+}
+.memo
+{
+	width: 120px;
+	height: 50px;
+	cursor: hand;
+	position: absolute;
+}

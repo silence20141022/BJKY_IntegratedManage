@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>在线查看</title>
+    <!-- --------------------=== 调用Weboffice初始化方法 ===--------------------- -->
+
+    <script language="javascript" event="NotifyCtrlReady" for="WebOffice1">
+/****************************************************
+*
+*	在装载完Weboffice(执行<object>...</object>)
+*	控件后执行 "WebOffice1_NotifyCtrlReady"方法
+*
+****************************************************/
+	WebOffice1_NotifyCtrlReady()
+    </script>
+
+    <script language="javascript" event="NotifyWordEvent(eventname)" for="WebOffice1">
+<!--
+ WebOffice1_NotifyWordEvent(eventname)
+//-->
+    </script>
+
+    <script language="javascript">
+        /****************************************************
+        *
+        *		控件初始化WebOffice方法
+        *
+        ****************************************************/
+        function WebOffice1_NotifyCtrlReady() {
+            var fileid = window.location.search.split('=')[1];
+            var id = fileid.substring(0, 36);
+            var name = fileid.substring(37);
+            document.all.WebOffice1.OptionFlag |= 128;
+            // 新建文档
+            document.all.WebOffice1.LoadOriginalFile("/commonpages/file/download.aspx?id=" + id, name.split(".")[1].toLowerCase());
+            document.all.WebOffice1.HideMenuItem(0x01);
+        }
+    </script>
+
+</head>
+<body>
+    <!-- -----------------------------== 装载weboffice控件 ==--------------------------------- -->
+    <object id="WebOffice1" height='650px' width='100%' style='left: 0px; top: 0px' classid='clsid:E77E049B-23FC-4DB8-B756-60529A35FAD5'
+        codebase="WebOffice.cab#V6,0,0,0">
+        <param name='_ExtentX' value='6350'>
+        <param name='_ExtentY' value='6350'>
+    </object>
+    <!-- --------------------------------== 结束装载控件 ==----------------------------------- -->
+</body>
+</html>

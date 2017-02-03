@@ -1,0 +1,62 @@
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using Castle.ActiveRecord;
+using NHibernate;
+using NHibernate.Criterion;
+using Aim.Data;
+using Aim.Portal.Web;
+using Aim.Portal.Web.UI;
+using Aim.Portal.Model;
+using IntegratedManage.Model;
+using System.Text;
+using Aim;
+namespace IntegratedManage.Web.SurveyManage
+{
+    public partial class SurveyView : IMListPage
+    {
+        
+        public string header = string.Empty;
+        string Id = string.Empty;
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            Id = RequestData.Get<string>("Id");
+            if (!string.IsNullOrEmpty(Id))
+            {
+                RendSurveryView(Id);
+            }
+        }
+
+        private void RendSurveryView(string Id)
+        {
+            IList<QuestionContent> qcEnts = QuestionContent.FindAllByProperties(0, QuestionContent.Prop_SortIndex, QuestionContent.Prop_SurveyQuestionId, Id);
+            if (qcEnts.Count > 0)
+            {
+                StringBuilder Stb = new StringBuilder();
+                for (int i = 0; i < qcEnts.Count; i++)
+                {
+                    StringBuilder SubStb = new StringBuilder();
+                    IList<QuestionItem> qiEnts = QuestionItem.FindAllByProperties(0, QuestionItem.Prop_SortIndex, QuestionItem.Prop_QuestionContentId, qcEnts[i].Id);
+                    for (int k = 0; k < qiEnts.Count; k++)
+                    {
+                        if (k > 0) SubStb.Append(",");
+                        SubStb.Append(JsonHelper.GetJsonString(qiEnts[k]));
+                    }
+                    qcEnts[i].QuestionItems = "[" + SubStb.ToString() + "]";
+                    if (i > 0) Stb.Append(",");
+                    Stb.Append(JsonHelper.GetJsonString(qcEnts[i]));
+                }
+                this.PageState.Add("ItemList", "[" + Stb.ToString() + "]");
+            }
+
+            string sql = @"select * from BJKY_IntegratedManage..SurveyQuestion  where Id='{0}' ";
+            this.PageState.Add("Survey", DataHelper.QueryDictList(string.Format(sql, Id)));
+        }
+
+    }
+}
+

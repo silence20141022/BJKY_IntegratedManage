@@ -1,0 +1,816 @@
+body
+{
+    font: 12px/1.5 Tahoma,Helvetica,Arial, '\5B8B\4F53' ,sans-serif;
+}
+html, legend
+{
+    color: #404040;
+    background: #fff;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td
+{
+    margin: 0;
+    padding: 0;
+}
+table
+{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+fieldset, img
+{
+    border: none;
+}
+address, caption, cite, code, dfn, em, strong, th, var
+{
+    font-style: normal;
+    font-weight: normal;
+}
+li
+{
+    list-style: none;
+}
+caption, th
+{
+    text-align: left;
+}
+h1, h2, h3, h4, h5, h6
+{
+    font-size: 100%;
+}
+h1
+{
+    font-size: 18px;
+}
+h2
+{
+    font-size: 16px;
+}
+h3
+{
+    font-size: 14px;
+}
+q:before, q:after
+{
+    content: '';
+}
+abbr, acronym
+{
+    border: none;
+    font-variant: normal;
+}
+sup
+{
+    vertical-align: text-top;
+}
+sub
+{
+    vertical-align: text-bottom;
+}
+input, button, textarea, select
+{
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+}
+input, button, textarea, select
+{ *font-size:100%;}
+select, input, button, textarea
+{
+    font: 100% Tahoma,Helvetica,Arial,sans-serif;
+}
+table
+{
+    font-size: inherit;
+    font: 100%;
+}
+a
+{
+    color: #36c;
+    text-decoration: none;
+}
+a:hover
+{
+    color: #f60;
+    text-decoration: underline;
+}
+.long-btn
+{
+    width: 100px;
+    height: 25px;
+    line-height: 25px;
+    background: url(img/btn_bg.png) no-repeat scroll 0 -300px;
+    font-size: 12px;
+    border: medium none;
+    color: #FFF;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+}
+a.long-btn:hover
+{
+    color: #fff;
+}
+.clearfix:after
+{
+    content: '\0020';
+    display: block;
+    height: 0;
+    clear: both;
+}
+.clearfix
+{
+    zoom: 1;
+}
+.login-box .msg p.error, .login-box .submit button, .login-box .mobile-num, .login-box .entries li, .install-plugin-popup .hd, .install-plugin-popup h3, .install-plugin-popup .bd ul li, .install-plugin-popup .bd strong, .long-login-help, .login-box ul.entries
+{
+    background: url(img/stuff.png) no-repeat 1000px 1000px;
+}
+html, body
+{
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    height: 100%;
+}
+.login-box
+{
+    overflow: hidden;
+    margin: 0 auto;
+}
+.login-tab li, .login-tab li a, .login-tab li h2, .login-tab li span
+{
+    background: url(img/login_tab_new.png);
+}
+.login-tab
+{
+    font-size: 0;
+    height: 36px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+.login-tab li
+{
+    height: 36px;
+    padding-left: 10px;
+    line-height: 36px;
+    margin-top: 1px;
+    margin-bottom: -1px;
+    position: relative;
+    text-align: center;
+    display: inline-block; *display:inline;zoom:1;font-size:12px;background-position:00;}
+.login-tab li a, .login-tab li.current h2
+{
+    height: 100%;
+    padding: 0 40px 0 32px;
+    float: left;
+}
+.login-tab li a
+{
+    width: 80px;
+    background-position: right -37px;
+    background-repeat: no-repeat;
+    color: #404040;
+}
+.login-tab li.current
+{
+    position: relative;
+    margin-bottom: -1px;
+    background-position: 0 -75px;
+}
+.login-tab li.current h2
+{
+    width: 81px;
+    font-size: 12px;
+    background-position: right -114px;
+    background-repeat: no-repeat;
+}
+.login-box .msg p.error
+{
+    background-position: -319px -449px;
+    background-color: #FFF2F2;
+    border-color: #FF8080;
+    line-height: 18px;
+    padding: 2px 10px 2px 23px;
+}
+.login-box .msg p
+{
+    border: 1px solid #ccc;
+    float: none;
+    white-space: normal;
+    word-wrap: break-word;
+}
+.login-box .hd
+{
+    overflow: hidden;
+    zoom: 1;
+}
+.login-box .bd
+{
+    padding: 10px 0 5px;
+}
+.login-box .field
+{
+    padding-top: 5px;
+    vertical-align: middle;
+    position: relative;
+}
+.login-box .img-code-field
+{
+    padding-top: 2px;
+}
+.login-box .field label
+{
+    display: inline-block;
+    width: 70px;
+    padding-right: 5px;
+    text-align: right;
+}
+.login-box .field-tips
+{
+    margin-left: 92px;
+}
+.login-box .field-tips .msg
+{
+    margin-left: 0;
+    width: 300px;
+}
+.login-box .field-nolabel
+{
+    margin-left: 92px;
+}
+.login-box .login-text
+{
+    width: 180px;
+    height: 18px;
+    line-height: 18px;
+    margin-right: 3px;
+    padding: 3px;
+    border: solid 1px #c8c8c8;
+    vertical-align: middle;
+}
+* + html .login-box .login-text
+{
+    margin-left: -2px;
+}
+.login-box .field .highlight
+{
+    border: 1px solid #f63;
+}
+.login-box input.tb-input-hint
+{
+    color: silver;
+}
+.login-box .forget-pw
+{
+    line-height: 26px;
+    vertical-align: middle;
+    color: #808080;
+}
+.login-box .mobile-num
+{
+    width: 174px;
+    background-color: #fff;
+    background-position: 164px -164px;
+}
+.login-box .checkcode
+{
+    ime-mode: disabled;
+    width: 40px;
+    margin: 0;
+}
+.login-box .audio_code
+{
+    display: inline-block;
+    zoom: 1; *display:inline;width:16px;height:16px;vertical-align:middle;}
+.login-box .login-msg
+{
+    margin: 0 20px;
+}
+.login-box .login-msg p
+{
+    float: none;
+    white-space: normal;
+    word-wrap: break-word;
+}
+.login-box .password-edit
+{
+    display: inline-block;
+    height: 28px;
+    overflow: hidden;
+    margin-left: -1px; *margin-left:-3px;_margin-left:-1px;vertical-align:middle;}
+#J_StandardPwd
+{
+    display: inline-block;
+    height: 28px;
+    vertical-align: middle;
+}
+.login-box .password-edit-tmp
+{
+    display: block;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+.login-box .submit
+{
+    padding: 2px 0 0 92px;
+    overflow: hidden;
+    zoom: 1;
+}
+.login-box .submit button
+{
+    width: 86px;
+    height: 27px;
+    margin-right: 6px;
+    border: 0;
+    display: inline-block;
+    text-indent: -9999px;
+    overflow: hidden;
+    vertical-align: middle; *text-indent:0;line-height:100px;font-size:0;zoom:1;background-position:0 -100px;cursor:pointer;}
+.login-box .submit button:hover, .login-box .submit button.hover
+{
+    background-position: -128px -100px;
+}
+.login-box .submit-loading
+{
+    background: url(img/loading.gif) no-repeat 60px 13px;
+}
+.login-box .submit-loading button
+{
+    background-position: -253px -100px;
+}
+.login-box .safe
+{
+    height: 56px;
+    padding: 0 0 0 80px;
+}
+.login-box .safe input
+{
+    margin-right: 3px; *margin:000-3px;vertical-align:middle;}
+.login-box .safe label
+{
+    vertical-align: middle;
+    color: #aaa;
+}
+.login-box .msg p.dynamic
+{
+    line-height: 18px;
+    border: solid 1px #ffcc7f;
+    padding: 2px 10px 2px 30px;
+    background: #ffffe5 url(img/sending.gif) no-repeat 8px 4px;
+    color: #404040;
+}
+.login-box ul.entries
+{
+    height: 18px;
+    margin: 8px 0 0 0;
+    padding: 8px 0 0 80px;
+    background-position: 0 -258px;
+}
+.login-box ul.entries li
+{
+    float: left;
+    padding: 0 10px;
+    word-break: keep-all;
+    background-position: -337px -224px;
+}
+.login-box ul.entries .dynamic-pwd, .login-box ul.entries .static-pwd
+{
+    padding-left: 23px;
+}
+.login-box ul.entries .dynamic-pwd
+{
+    background-position: -321px -196px;
+}
+.login-box ul.entries .static-pwd
+{
+    background-position: -321px -165px;
+}
+.login-box ul.entries a
+{
+    color: #808080;
+}
+.login-box ul.entries a:hover
+{
+    color: #f60;
+}
+.login-box .code-tip
+{
+    display: block;
+    padding: 5px 0 2px 92px;
+}
+.login-box .check-code-img
+{
+    width: 100px;
+    height: 30px;
+    border: none;
+    vertical-align: middle;
+    margin: 0;
+}
+.login-box .change-code
+{
+    display: inline-block;
+    line-height: 14px;
+    margin: 0;
+    vertical-align: middle;
+}
+.login-box .field .warning-tip
+{
+    display: block;
+    padding: 0 0 0 92px;
+    color: #ff0a0a;
+    font-weight: 400;
+}
+.login-box .install-plugin-img img
+{
+    vertical-align: middle;
+}
+.install-plugin-popup
+{
+    position: absolute;
+    width: 308px;
+    margin-left: -160px;
+    padding: 4px;
+    border: solid 1px #bcbcbc;
+    top: 20px;
+    left: 50%;
+    background: #efefef;
+    z-index: 100003;
+}
+.install-plugin-popup .wrap
+{
+    background: #fff;
+}
+.install-plugin-popup .hd
+{
+    height: 32px;
+    padding-left: 10px;
+    background-position: 0 0;
+}
+.install-plugin-popup h3
+{
+    height: 32px;
+    line-height: 32px;
+    font-size: 14px;
+    color: #fff;
+    background-position: 100% 0;
+}
+.install-plugin-popup .close
+{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    line-height: 100px;
+    overflow: hidden;
+    right: 14px;
+    top: 12px;
+    cursor: pointer;
+}
+.install-plugin-popup .bd
+{
+    padding: 10px;
+}
+.install-plugin-popup .bd h4
+{
+    font-size: 12px;
+    font-weight: bold;
+}
+.install-plugin-popup .bd ul
+{
+    margin: 5px 0 8px;
+    color: #636363;
+}
+.install-plugin-popup .bd ul li
+{
+    line-height: 20px;
+    padding-left: 8px;
+    background-position: 0 -40px;
+}
+.install-plugin-popup .bd strong
+{
+    display: block;
+    padding-left: 15px;
+    font-size: 12px;
+    background-position: -326px -62px;
+    color: #f60;
+}
+.install-plugin-popup .bd .buttons
+{
+    margin: 12px 0 2px;
+    text-align: center;
+}
+.install-plugin-popup a:hover
+{
+    color: #fff;
+    text-decoration: underline;
+}
+.popup-mask
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #000;
+    opacity: .5;
+    filter: alpha(opacity=50);
+    z-index: 100002;
+}
+* html .popup-shim
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    left: 0;
+    top: 0;
+    filter: alpha(opacity=0);
+    z-index: 100001;
+}
+.long-login-hover
+{
+    background: url(img/longlogin.png) no-repeat;
+}
+.long-login-help
+{
+    width: 12px;
+    height: 12px; *margin-left:3px;display:inline-block;*display:inline;zoom:1;text-indent:-1000px;overflow:hidden;font-size:0;vertical-align:middle;background-position:-325px-367px;}
+.long-login
+{
+    position: relative;
+    zoom: 1;
+    height: 22px;
+    display: inline-block; *display:inline;vertical-align:middle;line-height:22px;padding:2px02px3px;color:#999;overflow:hidden;z-index:5;*padding:2px02px3px;}
+.long-login-hover, .safe-login-hover
+{
+    background-position: 0 4px;
+    background-position: 0 2px\0; *background-position:1px2px;}
+.login-tips
+{
+    height: 28px;
+    width: 195px;
+    _width: 205px;
+    line-height: 14px;
+    clear: both;
+    overflow: visible;
+    color: #ca3e12;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    display: none;
+    margin-top: -1px;
+    _margin-top: 0;
+    word-wrap: break-word;
+    background-position: 0 -26px;
+    position: relative;
+    border-radius: 4px;
+    padding: 0 5px;
+}
+.login-tips .login-tips-content
+{
+    padding: 0 3px;
+}
+.long-login input.J_LognLoginInput
+{
+    margin-right: 6px; *margin-right:3px;}
+.login-tips s
+{
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    background-color: #fafafa;
+}
+.login-tips .tl
+{
+    top: -1px;
+    left: -1px;
+}
+.login-tips .tr
+{
+    top: -1px;
+    right: -1px;
+}
+.login-tips .bl
+{
+    bottom: -1px;
+    left: -1px;
+}
+.login-tips .br
+{
+    bottom: -1px;
+    right: -1px;
+}
+.login-box .safe input
+{
+    margin-right: 6px;
+}
+.submit .long-login
+{
+    width: 120px;
+    display: block;
+    height: 22px;
+    line-height: 22px;
+    margin-top: 4px;
+    padding: 2px 0 0 3px; *margin-top:0;*padding:0;margin-left:80px;}
+.submit .long-login input
+{
+    padding: 0; *margin-left:-1px;}
+.submit .login-tips
+{
+    position: relative;
+    z-index: 1;
+    margin-top: -1px;
+}
+.submit .long-login-hover
+{
+    background-position: 0 0;
+}
+.login-box .hd p
+{
+    padding: 10px 0 0 40px;
+    color: #808080;
+}
+.login-box strong
+{
+    font-weight: 700;
+}
+.dynamic-tips
+{
+    width: 276px;
+    margin: 12px 0 8px 15px;
+}
+.dynamic-tips .rc-tp, .dynamic-tips .rc-bt
+{
+    display: block;
+    height: 1px;
+    overflow: hidden;
+}
+.dynamic-tips .rc-tp s, .dynamic-tips .rc-bt s
+{
+    display: block;
+    width: 1px;
+    height: 1px;
+    background-color: #fafafa;
+}
+.dynamic-tips .rc-tp .r, .dynamic-tips .rc-bt .r
+{
+    float: right;
+}
+.dynamic-tips .rc-tp .l, .dynamic-tips .rc-bt .l
+{
+    float: left;
+}
+.dynamic, .dynamic-tips, .dynamic-tips .tips
+{
+    overflow: hidden;
+    zoom: 1;
+}
+.dynamic-tips .tips
+{
+    padding: 6px 10px;
+    border: 1px solid #ececec;
+    margin: -1px 0;
+    color: #808080;
+    background-color: #fff;
+}
+.dynamic-tips em
+{
+    color: #f60;
+}
+.dynamic-tips .left-text
+{
+    width: 82px;
+    padding-top: 5px;
+    float: left;
+}
+.dynamic-tips .right-text
+{
+    width: 158px;
+    padding-left: 10px;
+    line-height: 16px;
+    float: left;
+}
+.dynamic-tips .right-text em
+{
+    padding-left: 6px;
+}
+.login-box .dynamic .login-text
+{
+    width: 80px;
+    margin-right: 3px;
+}
+.login-box .dynamic .mobile-num
+{
+    width: 174px;
+}
+.login-box .dynamic .submit
+{
+    padding-left: 186px;
+    margin-top: -34px; *padding-left:182px;}
+.login-box .dynamic .submit-loading
+{
+    background: url(img/loading.gif) no-repeat 282px 18px;
+}
+.login-box .dynamic ul.entries
+{
+    padding-left: 84px;
+}
+.login-box .dynamic .field input
+{
+    position: relative;
+}
+.login-box .mobile-check
+{
+    width: 80px;
+}
+.login-box .field .select-wrap
+{
+    width: 180px;
+    height: 24px;
+    position: relative;
+    border: 1px solid #C8C8C8;
+    display: inline-block;
+    background: #FFF;
+    vertical-align: middle;
+}
+.login-box .field select
+{
+    width: 176px;
+    height: 20px;
+    left: 2px;
+    line-height: 20px;
+    outline: medium none;
+    position: absolute;
+    border: 0 none;
+    top: 2px;
+}
+.ph-label
+{
+    position: absolute;
+    padding: 0 0 0 6px;
+    line-height: 24px; *margin-top:3px;_padding-top:0;*padding-top:3px;height:24px;color:#999;opacity:1;transition:all.2sease-out;-webkit-transition:all.2sease-in;-moz-transition:all.2sease-out;}
+.ph-hide .ph-label
+{
+    opacity: 0;
+    visibility: hidden;
+}
+.ph-focus .ph-label
+{
+    color: #ddd;
+}
+.module-dynamic .static, .module-dynamic .quick-login, .module-static .quick-login, .module-static .dynamic, .module-quick .static, .module-quick .dynamic
+{
+    display: none;
+}
+.no-longlogin .long-login, .no-longlogin .long-login-help, .no-longlogin .login-tips
+{
+    visibility: hidden;
+}
+.no-safe .safe-login
+{
+    visibility: hidden;
+}
+.no-reg .register
+{
+    visibility: hidden;
+}
+.no-dynamic .entries .register
+{
+    background: none;
+}
+.no-dynamic .dynamic-pwd
+{
+    display: none;
+}
+.hidden
+{
+    display: none;
+}
+.ql-box
+{
+    padding: 10px 0 0 0;
+}
+.ql-single .r-user
+{
+    display: none;
+}
+.ql-box .userlist .current
+{
+    font-weight: bold;
+}
+.ql-box .userlist li
+{
+    height: 2em;
+}
+.ql-box .title
+{
+    padding-left: 80px;
+}
+.ql-box .userlist
+{
+    height: 6em;
+    overflow: auto;
+    margin: 10px 0 0;
+    padding: 0 0 0 80px;
+}

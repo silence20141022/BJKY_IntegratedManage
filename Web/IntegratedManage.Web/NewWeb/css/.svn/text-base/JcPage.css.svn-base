@@ -1,0 +1,136 @@
+.Newtitle {
+	filter: DropShadow(Color=#999999, OffX=1, OffY=1, Positive=1);
+	font-size: medium;
+	font-weight: bold;
+}
+Body{ 
+		MARGIN-TOP: 0px; MARGIN-LEFT:0px; margin-right:0px;MARGIN-bottom: 0px;
+		 FONT-SIZE: 9pt;SCROLLBAR-FACE-COLOR: #ffffff;
+	  	SCROLLBAR-HIGHLIGHT-COLOR: #000000;
+	  	SCROLLBAR-SHADOW-COLOR: #000000; COLOR: black; SCROLLBAR-3DLIGHT-COLOR: #ffffff; 
+	  	SCROLLBAR-ARROW-COLOR: #666666; SCROLLBAR-TRACK-COLOR: #ffffff; 
+	  	SCROLLBAR-DARKSHADOW-COLOR: #ffffff;}
+	   
+/*－－－－－－－－字体样式开始－－－－－－－－－－*/
+
+Table {font-size:9pt;margin:0;color:#2E2E2E;}
+
+.SkinFooterFont{font-size:9pt;color:#ffffff;padding-left:5;padding-top:2;}
+
+/*－－－－－－－－－字体样式结束－－－－－－－－－*/
+
+
+
+
+/*－－－－－－－－链接样式开始－－－－－－－－－－*/
+A:link       { font-size: 9pt; color: #0042A5; TEXT-DECORATION: none }
+A:visited    { font-size: 9pt; color: #0042A5; TEXT-DECORATION: none }
+A:hover      { font-size: 9pt; color: #005AE1; TEXT-DECORATION: none }
+/*－－－－－－－－链接样式开始－－－－－－－－－－*/
+
+
+
+/*－－－－－－－－表格样式开始－－－－－－－－－－*/
+.Table.SkinTable /*外壳的table*/{width: 100%;height:100%;border-collapse: collapse; cellpadding:"0"; cellspacing:"0"}
+
+.Table.DefaultTable /*默认Table*/ {width: 100%;border-collapse: collapse; cellpadding:"0"; cellspacing:"0"}
+
+.Table.SmallTable400 /*包含列表的table*/ {width: 400;border-collapse: collapse; cellpadding:"0"; cellspacing:"0"}
+.Table.MiddleTable600 /*包含列表的table*/ {width: 600;border-collapse: collapse; cellpadding:"0"; cellspacing:"0"}
+.Table.BigTable800 /*包含列表的table*/ {width: 100%;border-collapse: collapse; cellpadding:"0"; cellspacing:"0"}
+.Table.FreeTable /*包含列表的table*/ {border-collapse: collapse; cellpadding:"0"; cellspacing:"0"}
+
+.Table.FormTableL /*宽表单table*/ {width: 800;border-collapse: collapse; cellpadding:"0"; cellspacing:"0"}
+.Table.FormTableM /*窄表单table*/{width: 600;border-collapse: collapse; cellpadding:"0"; cellspacing:"0"}
+.Table.FormTableS /*窄表单table*/{width: 400;border-collapse: collapse; cellpadding:"0"; cellspacing:"0"}
+
+
+.Table.NavTable  /*导航栏的table*/ {width: 100%;border-collapse: collapse; background-color:#F4F8FB; height:23; cellpadding:"0"; cellspacing:"0"}
+
+
+.Td.SkinToolBar
+{
+	
+	padding-top:0; font-size:9pt;font-size:9pt;height:24;background-image: url(/portal/image/skintoolbar_bg.gif);
+	}
+.Td.StepBar
+{
+	padding-top:0; font-size:9pt;font-size:9pt;height:24;background-image: url(/portal/image/StepBar_bg.gif);
+	}
+.Td.SkinBodyTd {height:99%;border-left: 1px solid #000000;border-right: 1px solid #000000;border-bottom: 1px solid #000000;border-top: 0px solid #000000;padding:0;}
+
+.Td.SkinFooterTd {color:#ffffff;padding:0;height:22px;BACKGROUND-IMAGE: url('/share/image/skin/skin_footer_bg.gif')}
+
+.Td.ToolsHideBar {padding-right:5px;align:right;background-color:#809EC3;text-align: right}
+
+.Td.ToolBarBg {BACKGROUND-IMAGE: url('/share/image/ToolBar_bg.jpg');color:#ffffff}
+
+.Td.ListHideBar {padding-right:0px;align:right;text-align: right}
+.SearchBarButtonTD{text-align: right;padding-right:2;}
+.Td.ListTitleButtonTD {text-align: right;}
+
+.Td.Line /*分隔线样式*/ { background-color:#809FC3}
+
+.Td.ListTitleName /*列表标题单元格格式*/
+{
+	color: #003F87;padding-left:2;filter: blur(add=1, direction=135, strength=2); height:25;padding-top:3;font-size:11pt;
+	}
+.Td.FormTitle /*列表标题单元格格式*/
+{
+	color: #003F87;background-color:#E0E0FF;padding-left:2; height:20; text-align:left;font-size:10pt;
+	}
+/*－－－－－－－－表格样式结束－－－－－－－－－－*/
+
+.Div.Gap4{ height:4; overflow:hidden;}
+.Div.Gap8{ height:8; overflow:hidden;}
+.Span.Gap4{	width:4; overflow:hidden;}
+.Span.Gap4{	width:8; overflow:hidden;}
+/*－－－－－－－－DIV样式开始－－－－－－－－－－*/
+.Div.UploadDiv 
+{
+HEIGHT:280px;width:100%; OVERFLOW: auto;vertical-align:top;BORDER-BOTTOM: Silver 0px inset;BORDER-LEFT: black 0px inset;BORDER-RIGHT: black 0px inset;BORDER-TOP: black 0px inset;
+}
+/*－－－－－－－－DIV样式结束－－－－－－－－－－*/
+
+/*－－－－－－－－文件管理样式开始－－－－－－－－－－*/
+.File_NavBtnDef
+{
+	border: 1px solid #C0C0C0;
+	cursor:hand;
+	}
+.File_NavBtnClick
+{
+	border-top: 1px solid #808080;border-left: 1px solid #808080;border-right: 1px solid #FFFFFF;border-bottom: 1px solid #FFFFFF;
+	}
+/*－－－－－－－－文件管理样式结束－－－－－－－－－－*/
+
+/*---------新版本的样式---------*/
+
+.TitleBar {
+	BACKGROUND-POSITION: 50% top; 
+	PADDING-LEFT: 4px; 
+	FONT-SIZE: 12px; 
+	BACKGROUND-IMAGE: url(/share/image/page/TITLE_BG.gif); 
+	COLOR: #0c597f; 
+	PADDING-TOP: 2px; 
+	BORDER-BOTTOM: #447ebe 1px solid; 
+	BACKGROUND-REPEAT: repeat-x; 
+	HEIGHT: 25px; 
+	BACKGROUND-COLOR: #accfe3; 
+	TEXT-ALIGN: left
+}
+.Content {
+	BACKGROUND-COLOR: #f0f0f0
+}
+.ToolbarDiv {
+	text-align: left;
+	width: 100%;
+	vertical-align: top;
+	height: 25px;
+	background-image: url(/share/image/page/ToolBar_BG.gif);
+	background-position: top;
+	font-size: 12px;
+	padding-top:0px;
+}
+
+/*---------新版本的样式---------*/

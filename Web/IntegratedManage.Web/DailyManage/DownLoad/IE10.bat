@@ -1,0 +1,1 @@
+reg add "HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\BrowserEmulation" /v AllSitesCompatibilityMode  /t REG_DWORD /d 00000001 /f

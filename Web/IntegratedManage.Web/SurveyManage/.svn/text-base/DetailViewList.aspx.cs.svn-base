@@ -1,0 +1,55 @@
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using Castle.ActiveRecord;
+using NHibernate;
+using NHibernate.Criterion;
+using Aim.Data;
+using Aim.Portal.Web;
+using Aim.Portal.Web.UI;
+using Aim.Portal.Model;
+using IntegratedManage.Model;
+using System.Text;
+using Aim;
+namespace IntegratedManage.Web.SurveyManage
+{
+    public partial class DetailViewList : IMListPage
+    {
+        string Id = string.Empty;
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            Id = this.RequestData.Get<string>("Id");
+            switch (RequestActionString)
+            {
+                default:
+                    DoSelect();
+                    break;
+            }
+        }
+        private void DoSelect()
+        {
+
+            string sql = @"select  SurveyedUserId as UserId,SurveryUserName as UserName,C.GroupID as DeptId,C.Name As DeptName
+                        from BJKY_IntegratedManage..SurveyCommitHistory As A
+                            left join BJKY_Portal..SysUserGroup As B 
+                        on A.SurveyedUserId=B.UserId left join 
+                            BJKY_Portal..SysGroup As C
+                        on C.GroupID=B.GroupID where A.SurveyId='{0}' and 1=1 ";
+
+            if (SearchCriterion.GetSearchValue("UserName") != null)
+            {
+                sql = sql.Replace("and 1=1", " and A.SurveryUserName like '%" + SearchCriterion.GetSearchValue("UserName") + "%'");
+            }
+            if (!string.IsNullOrEmpty(Id))
+            {
+                sql = string.Format(sql, Id);
+                this.PageState.Add("DataList", DataHelper.QueryDictList(sql));
+            }
+        }
+
+    }
+}

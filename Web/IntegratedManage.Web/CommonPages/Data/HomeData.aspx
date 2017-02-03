@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" CodeBehind="HomeData.aspx.cs" Inherits="IntegratedManage.Web.CommonPages.HomeData" %>
