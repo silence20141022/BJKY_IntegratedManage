@@ -1,0 +1,221 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/BJKY_IntegratedManage/!svn/ver/1/Framework/Aim.Portal/Model/Rule/Generated
+END
+SysSystemRule.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/BJKY_IntegratedManage/!svn/ver/1/Framework/Aim.Portal/Model/Rule/Generated/SysSystemRule.cs
+END
+SysModuleRule.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/BJKY_IntegratedManage/!svn/ver/1/Framework/Aim.Portal/Model/Rule/Generated/SysModuleRule.cs
+END
+SysEnumerationRule.cs
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/BJKY_IntegratedManage/!svn/ver/1/Framework/Aim.Portal/Model/Rule/Generated/SysEnumerationRule.cs
+END
+FileModuleRule.cs
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/BJKY_IntegratedManage/!svn/ver/1/Framework/Aim.Portal/Model/Rule/Generated/FileModuleRule.cs
+END
+WebPartBaseTemplateRule.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/BJKY_IntegratedManage/!svn/ver/1/Framework/Aim.Portal/Model/Rule/Generated/WebPartBaseTemplateRule.cs
+END
+SysGroupTypeRule.cs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/BJKY_IntegratedManage/!svn/ver/1/Framework/Aim.Portal/Model/Rule/Generated/SysGroupTypeRule.cs
+END
+SysDataImportTemplateRule.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/BJKY_IntegratedManage/!svn/ver/1/Framework/Aim.Portal/Model/Rule/Generated/SysDataImportTemplateRule.cs
+END
+SysRoleRule.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/BJKY_IntegratedManage/!svn/ver/1/Framework/Aim.Portal/Model/Rule/Generated/SysRoleRule.cs
+END
+SysGraphRule.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/BJKY_IntegratedManage/!svn/ver/1/Framework/Aim.Portal/Model/Rule/Generated/SysGraphRule.cs
+END
+WebPartTemplateRule.cs
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/BJKY_IntegratedManage/!svn/ver/1/Framework/Aim.Portal/Model/Rule/Generated/WebPartTemplateRule.cs
+END
+DynamicAuthCatalogRule.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/BJKY_IntegratedManage/!svn/ver/1/Framework/Aim.Portal/Model/Rule/Generated/DynamicAuthCatalogRule.cs
+END
+SysApplicationRule.cs
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/BJKY_IntegratedManage/!svn/ver/1/Framework/Aim.Portal/Model/Rule/Generated/SysApplicationRule.cs
+END
+SysAuthTypeRule.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/BJKY_IntegratedManage/!svn/ver/1/Framework/Aim.Portal/Model/Rule/Generated/SysAuthTypeRule.cs
+END
+DynamicOperationRule.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/BJKY_IntegratedManage/!svn/ver/1/Framework/Aim.Portal/Model/Rule/Generated/DynamicOperationRule.cs
+END
+SysTableStructureRule.cs
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/BJKY_IntegratedManage/!svn/ver/1/Framework/Aim.Portal/Model/Rule/Generated/SysTableStructureRule.cs
+END
+SysParameterCatalogRule.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/BJKY_IntegratedManage/!svn/ver/1/Framework/Aim.Portal/Model/Rule/Generated/SysParameterCatalogRule.cs
+END
+NewsRule.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/BJKY_IntegratedManage/!svn/ver/1/Framework/Aim.Portal/Model/Rule/Generated/NewsRule.cs
+END
+SysParameterRule.cs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/BJKY_IntegratedManage/!svn/ver/1/Framework/Aim.Portal/Model/Rule/Generated/SysParameterRule.cs
+END
+SysEventRule.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/BJKY_IntegratedManage/!svn/ver/1/Framework/Aim.Portal/Model/Rule/Generated/SysEventRule.cs
+END
+AddressListRule.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/BJKY_IntegratedManage/!svn/ver/1/Framework/Aim.Portal/Model/Rule/Generated/AddressListRule.cs
+END
+SysMessageRule.cs
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/BJKY_IntegratedManage/!svn/ver/1/Framework/Aim.Portal/Model/Rule/Generated/SysMessageRule.cs
+END
+SysModuleTypeRule.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/BJKY_IntegratedManage/!svn/ver/1/Framework/Aim.Portal/Model/Rule/Generated/SysModuleTypeRule.cs
+END
+DynamicPermissionCatalogRule.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/BJKY_IntegratedManage/!svn/ver/1/Framework/Aim.Portal/Model/Rule/Generated/DynamicPermissionCatalogRule.cs
+END
+SysGroupRule.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/BJKY_IntegratedManage/!svn/ver/1/Framework/Aim.Portal/Model/Rule/Generated/SysGroupRule.cs
+END
+SysReportEntryRule.cs
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/BJKY_IntegratedManage/!svn/ver/1/Framework/Aim.Portal/Model/Rule/Generated/SysReportEntryRule.cs
+END
+DynamicPermissionRule.cs
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/BJKY_IntegratedManage/!svn/ver/1/Framework/Aim.Portal/Model/Rule/Generated/DynamicPermissionRule.cs
+END
+FileItemRule.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/BJKY_IntegratedManage/!svn/ver/1/Framework/Aim.Portal/Model/Rule/Generated/FileItemRule.cs
+END
+SysAuthRule.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/BJKY_IntegratedManage/!svn/ver/1/Framework/Aim.Portal/Model/Rule/Generated/SysAuthRule.cs
+END
+SysRoleTypeRule.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/BJKY_IntegratedManage/!svn/ver/1/Framework/Aim.Portal/Model/Rule/Generated/SysRoleTypeRule.cs
+END
+WebPartRule.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/BJKY_IntegratedManage/!svn/ver/1/Framework/Aim.Portal/Model/Rule/Generated/WebPartRule.cs
+END
+DynamicAuthRule.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/BJKY_IntegratedManage/!svn/ver/1/Framework/Aim.Portal/Model/Rule/Generated/DynamicAuthRule.cs
+END
+SysDataExportTemplateRule.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/BJKY_IntegratedManage/!svn/ver/1/Framework/Aim.Portal/Model/Rule/Generated/SysDataExportTemplateRule.cs
+END
+FileFolderRule.cs
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/BJKY_IntegratedManage/!svn/ver/1/Framework/Aim.Portal/Model/Rule/Generated/FileFolderRule.cs
+END
+SysUserRule.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/BJKY_IntegratedManage/!svn/ver/1/Framework/Aim.Portal/Model/Rule/Generated/SysUserRule.cs
+END
+NewsTypeRule.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/BJKY_IntegratedManage/!svn/ver/1/Framework/Aim.Portal/Model/Rule/Generated/NewsTypeRule.cs
+END
+SysEventTypeRule.cs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/BJKY_IntegratedManage/!svn/ver/1/Framework/Aim.Portal/Model/Rule/Generated/SysEventTypeRule.cs
+END

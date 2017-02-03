@@ -1,0 +1,221 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/BJKY_IntegratedManage/!svn/ver/748/Framework/Aim.Portal/Model/Entity/Customed
+END
+News.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/BJKY_IntegratedManage/!svn/ver/723/Framework/Aim.Portal/Model/Entity/Customed/News.cs
+END
+SysParameter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/BJKY_IntegratedManage/!svn/ver/1/Framework/Aim.Portal/Model/Entity/Customed/SysParameter.cs
+END
+SysEvent.cs
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/BJKY_IntegratedManage/!svn/ver/1/Framework/Aim.Portal/Model/Entity/Customed/SysEvent.cs
+END
+AddressList.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/BJKY_IntegratedManage/!svn/ver/1/Framework/Aim.Portal/Model/Entity/Customed/AddressList.cs
+END
+SysMessage.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/BJKY_IntegratedManage/!svn/ver/1/Framework/Aim.Portal/Model/Entity/Customed/SysMessage.cs
+END
+DynamicPermissionCatalog.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/BJKY_IntegratedManage/!svn/ver/1/Framework/Aim.Portal/Model/Entity/Customed/DynamicPermissionCatalog.cs
+END
+SysGroup.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/BJKY_IntegratedManage/!svn/ver/748/Framework/Aim.Portal/Model/Entity/Customed/SysGroup.cs
+END
+SysReportEntry.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/BJKY_IntegratedManage/!svn/ver/1/Framework/Aim.Portal/Model/Entity/Customed/SysReportEntry.cs
+END
+DynamicPermission.cs
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/BJKY_IntegratedManage/!svn/ver/1/Framework/Aim.Portal/Model/Entity/Customed/DynamicPermission.cs
+END
+FileItem.cs
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/BJKY_IntegratedManage/!svn/ver/1/Framework/Aim.Portal/Model/Entity/Customed/FileItem.cs
+END
+SysAuth.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/BJKY_IntegratedManage/!svn/ver/1/Framework/Aim.Portal/Model/Entity/Customed/SysAuth.cs
+END
+SysRoleType.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/BJKY_IntegratedManage/!svn/ver/1/Framework/Aim.Portal/Model/Entity/Customed/SysRoleType.cs
+END
+VideoNews.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/BJKY_IntegratedManage/!svn/ver/351/Framework/Aim.Portal/Model/Entity/Customed/VideoNews.cs
+END
+SysDataExportTemplate.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/BJKY_IntegratedManage/!svn/ver/1/Framework/Aim.Portal/Model/Entity/Customed/SysDataExportTemplate.cs
+END
+DynamicAuth.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/BJKY_IntegratedManage/!svn/ver/1/Framework/Aim.Portal/Model/Entity/Customed/DynamicAuth.cs
+END
+ImgNews.cs
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/BJKY_IntegratedManage/!svn/ver/304/Framework/Aim.Portal/Model/Entity/Customed/ImgNews.cs
+END
+FileFolder.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/BJKY_IntegratedManage/!svn/ver/1/Framework/Aim.Portal/Model/Entity/Customed/FileFolder.cs
+END
+SysUser.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/BJKY_IntegratedManage/!svn/ver/1/Framework/Aim.Portal/Model/Entity/Customed/SysUser.cs
+END
+Competence.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/BJKY_IntegratedManage/!svn/ver/235/Framework/Aim.Portal/Model/Entity/Customed/Competence.cs
+END
+SysSystem.cs
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/BJKY_IntegratedManage/!svn/ver/1/Framework/Aim.Portal/Model/Entity/Customed/SysSystem.cs
+END
+SysModule.cs
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/BJKY_IntegratedManage/!svn/ver/1/Framework/Aim.Portal/Model/Entity/Customed/SysModule.cs
+END
+SysEnumeration.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/BJKY_IntegratedManage/!svn/ver/1/Framework/Aim.Portal/Model/Entity/Customed/SysEnumeration.cs
+END
+SysMessageReceive.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/BJKY_IntegratedManage/!svn/ver/441/Framework/Aim.Portal/Model/Entity/Customed/SysMessageReceive.cs
+END
+SysGroupType.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/BJKY_IntegratedManage/!svn/ver/1/Framework/Aim.Portal/Model/Entity/Customed/SysGroupType.cs
+END
+CollectionToUser.cs
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/BJKY_IntegratedManage/!svn/ver/103/Framework/Aim.Portal/Model/Entity/Customed/CollectionToUser.cs
+END
+SysDataImportTemplate.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/BJKY_IntegratedManage/!svn/ver/1/Framework/Aim.Portal/Model/Entity/Customed/SysDataImportTemplate.cs
+END
+SysRole.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/BJKY_IntegratedManage/!svn/ver/1/Framework/Aim.Portal/Model/Entity/Customed/SysRole.cs
+END
+SysGraph.cs
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/BJKY_IntegratedManage/!svn/ver/1/Framework/Aim.Portal/Model/Entity/Customed/SysGraph.cs
+END
+DynamicAuthCatalog.cs
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/BJKY_IntegratedManage/!svn/ver/1/Framework/Aim.Portal/Model/Entity/Customed/DynamicAuthCatalog.cs
+END
+SysApplication.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/BJKY_IntegratedManage/!svn/ver/1/Framework/Aim.Portal/Model/Entity/Customed/SysApplication.cs
+END
+SysAuthType.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/BJKY_IntegratedManage/!svn/ver/1/Framework/Aim.Portal/Model/Entity/Customed/SysAuthType.cs
+END
+VideoNewDetail.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/BJKY_IntegratedManage/!svn/ver/351/Framework/Aim.Portal/Model/Entity/Customed/VideoNewDetail.cs
+END
+DynamicOperation.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/BJKY_IntegratedManage/!svn/ver/1/Framework/Aim.Portal/Model/Entity/Customed/DynamicOperation.cs
+END
+SysTableStructure.cs
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/BJKY_IntegratedManage/!svn/ver/1/Framework/Aim.Portal/Model/Entity/Customed/SysTableStructure.cs
+END
+ImgNewDetail.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/BJKY_IntegratedManage/!svn/ver/304/Framework/Aim.Portal/Model/Entity/Customed/ImgNewDetail.cs
+END
+SysParameterCatalog.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/BJKY_IntegratedManage/!svn/ver/1/Framework/Aim.Portal/Model/Entity/Customed/SysParameterCatalog.cs
+END

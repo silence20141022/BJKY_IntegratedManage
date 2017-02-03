@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/BPM.WF.EDM" xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/BPM.WF.EDM" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:1111/FlowService?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:import schemaLocation="http://localhost:1111/FlowService?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/System.Data.Objects.DataClasses" />
+  <xs:complexType name="ArrayOfMetaData_EForm">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="MetaData_EForm" nillable="true" type="tns:MetaData_EForm" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfMetaData_EForm" nillable="true" type="tns:ArrayOfMetaData_EForm" />
+  <xs:complexType name="MetaData_EForm">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q1="http://schemas.datacontract.org/2004/07/System.Data.Objects.DataClasses" base="q1:EntityObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="CreatedTime" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="EntitySetName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ID" type="ser:guid" />
+          <xs:element minOccurs="0" name="KeyName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Mapping_EFormAndWorkflowTemplate" nillable="true" type="tns:ArrayOfMapping_EFormAndWorkflowTemplate" />
+          <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Remark" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="UpdatedTime" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="Version" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="MetaData_EForm" nillable="true" type="tns:MetaData_EForm" />
+  <xs:complexType name="ArrayOfMapping_EFormAndWorkflowTemplate">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Mapping_EFormAndWorkflowTemplate" nillable="true" type="tns:Mapping_EFormAndWorkflowTemplate" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfMapping_EFormAndWorkflowTemplate" nillable="true" type="tns:ArrayOfMapping_EFormAndWorkflowTemplate" />
+  <xs:complexType name="Mapping_EFormAndWorkflowTemplate">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q2="http://schemas.datacontract.org/2004/07/System.Data.Objects.DataClasses" base="q2:EntityObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Creator" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="EFormID" type="ser:guid" />
+          <xs:element minOccurs="0" name="ID" type="ser:guid" />
+          <xs:element minOccurs="0" name="MetaData_EForm" nillable="true" type="tns:MetaData_EForm" />
+          <xs:element minOccurs="0" name="MetaData_EFormReference" nillable="true" type="q2:EntityReferenceOfMetaData_EForm1hA_PQjbb" />
+          <xs:element minOccurs="0" name="WorkflowTemplateName" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Mapping_EFormAndWorkflowTemplate" nillable="true" type="tns:Mapping_EFormAndWorkflowTemplate" />
+  <xs:complexType name="ArrayOfWorkflowTemplate">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="WorkflowTemplate" nillable="true" type="tns:WorkflowTemplate" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfWorkflowTemplate" nillable="true" type="tns:ArrayOfWorkflowTemplate" />
+  <xs:complexType name="WorkflowTemplate">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q3="http://schemas.datacontract.org/2004/07/System.Data.Objects.DataClasses" base="q3:EntityObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Category" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Code" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Config" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="CreateTime" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="Creator" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ID" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="LastReviser" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Status" type="xs:int" />
+          <xs:element minOccurs="0" name="TemplateName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="UpdateTime" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="Version" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="XAML" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="WorkflowTemplate" nillable="true" type="tns:WorkflowTemplate" />
+  <xs:complexType name="Task">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q4="http://schemas.datacontract.org/2004/07/System.Data.Objects.DataClasses" base="q4:EntityObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Action" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ApprovalNodeMatchConditionType" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="ApprovalNodeName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="BookmarkName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Context" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="CreatedTime" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="EFormName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="FinishTime" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="GroupID" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ID" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Owner" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="OwnerId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Result" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Status" type="xs:int" />
+          <xs:element minOccurs="0" name="TaskContext" nillable="true" type="tns:TaskContext" />
+          <xs:element minOccurs="0" name="Title" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="UpdatedTime" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="WorkFlowName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="WorkflowInstanceID" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Task" nillable="true" type="tns:Task" />
+  <xs:complexType name="TaskContext">
+    <xs:sequence>
+      <xs:element name="switchRulesField" nillable="true" type="tns:ArrayOfTaskContextSwitchRule" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="TaskContext" nillable="true" type="tns:TaskContext" />
+  <xs:complexType name="ArrayOfTaskContextSwitchRule">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="TaskContextSwitchRule" nillable="true" type="tns:TaskContextSwitchRule" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfTaskContextSwitchRule" nillable="true" type="tns:ArrayOfTaskContextSwitchRule" />
+  <xs:complexType name="TaskContextSwitchRule">
+    <xs:sequence>
+      <xs:element name="nextActionsField" nillable="true" type="tns:ArrayOfTaskContextSwitchRuleNextAction" />
+      <xs:element name="nodeNameField" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="TaskContextSwitchRule" nillable="true" type="tns:TaskContextSwitchRule" />
+  <xs:complexType name="ArrayOfTaskContextSwitchRuleNextAction">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="TaskContextSwitchRuleNextAction" nillable="true" type="tns:TaskContextSwitchRuleNextAction" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfTaskContextSwitchRuleNextAction" nillable="true" type="tns:ArrayOfTaskContextSwitchRuleNextAction" />
+  <xs:complexType name="TaskContextSwitchRuleNextAction">
+    <xs:sequence>
+      <xs:element name="nameField" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="TaskContextSwitchRuleNextAction" nillable="true" type="tns:TaskContextSwitchRuleNextAction" />
+  <xs:complexType name="ArrayOfTask">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Task" nillable="true" type="tns:Task" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfTask" nillable="true" type="tns:ArrayOfTask" />
+  <xs:complexType name="ReceivedDocument">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q5="http://schemas.datacontract.org/2004/07/System.Data.Objects.DataClasses" base="q5:EntityObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Comments" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Content" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ID" type="ser:guid" />
+          <xs:element minOccurs="0" name="ReceivedDate" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="Sender" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Title" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ReceivedDocument" nillable="true" type="tns:ReceivedDocument" />
+</xs:schema>

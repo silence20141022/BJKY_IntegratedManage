@@ -1,0 +1,11 @@
+F:\BJKY_IntegratedManage\Framework\GoodwaySSO\bin\Debug\GoodwaySSO.dll.config
+F:\BJKY_IntegratedManage\Framework\GoodwaySSO\bin\Debug\GoodwaySSO.dll
+F:\BJKY_IntegratedManage\Framework\GoodwaySSO\bin\Debug\GoodwaySSO.pdb
+F:\BJKY_IntegratedManage\Framework\GoodwaySSO\obj\Debug\ResolveAssemblyReference.cache
+F:\BJKY_IntegratedManage\Framework\GoodwaySSO\obj\Debug\GoodwaySSO.dll
+F:\BJKY_IntegratedManage\Framework\GoodwaySSO\obj\Debug\GoodwaySSO.pdb
+D:\北京矿研\BJKY_IntegratedManage\Framework\GoodwaySSO\bin\Debug\GoodwaySSO.dll.config
+D:\北京矿研\BJKY_IntegratedManage\Framework\GoodwaySSO\bin\Debug\GoodwaySSO.dll
+D:\北京矿研\BJKY_IntegratedManage\Framework\GoodwaySSO\bin\Debug\GoodwaySSO.pdb
+D:\北京矿研\BJKY_IntegratedManage\Framework\GoodwaySSO\obj\Debug\GoodwaySSO.dll
+D:\北京矿研\BJKY_IntegratedManage\Framework\GoodwaySSO\obj\Debug\GoodwaySSO.pdb

@@ -1,0 +1,9 @@
+F:\BJKY_IntegratedManage\Framework\Aim.Resources\bin\Debug\Aim.Resources.dll
+F:\BJKY_IntegratedManage\Framework\Aim.Resources\bin\Debug\Aim.Resources.pdb
+F:\BJKY_IntegratedManage\Framework\Aim.Resources\obj\Debug\ResolveAssemblyReference.cache
+F:\BJKY_IntegratedManage\Framework\Aim.Resources\obj\Debug\Aim.Resources.dll
+F:\BJKY_IntegratedManage\Framework\Aim.Resources\obj\Debug\Aim.Resources.pdb
+D:\北京矿研\BJKY_IntegratedManage\Framework\Aim.Resources\bin\Debug\Aim.Resources.dll
+D:\北京矿研\BJKY_IntegratedManage\Framework\Aim.Resources\bin\Debug\Aim.Resources.pdb
+D:\北京矿研\BJKY_IntegratedManage\Framework\Aim.Resources\obj\Debug\Aim.Resources.dll
+D:\北京矿研\BJKY_IntegratedManage\Framework\Aim.Resources\obj\Debug\Aim.Resources.pdb

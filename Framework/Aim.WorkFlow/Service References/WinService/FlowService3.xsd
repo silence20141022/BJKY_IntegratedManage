@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/BPM.WF.Model" xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/BPM.WF.Model" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:1111/FlowService?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/BPM.WF.EDM" />
+  <xs:import schemaLocation="http://localhost:1111/FlowService?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:import schemaLocation="http://localhost:1111/FlowService?xsd=xsd7" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:complexType name="ApprovalResult">
+    <xs:sequence>
+      <xs:element name="ApprovalDateTime" type="xs:dateTime" />
+      <xs:element name="ApprovalNodeSkipInfoList" nillable="true" type="tns:ArrayOfApprovalNodeSkipInfo" />
+      <xs:element name="Comment" nillable="true" type="xs:string" />
+      <xs:element name="ExtendedProperties" nillable="true" type="tns:ArrayOfKeyValuePair_V2" />
+      <xs:element name="Opinion" type="tns:ApprovalOpinion" />
+      <xs:element name="SpecifiedApprovalNodeContexts" nillable="true" type="tns:ArrayOfApprovalNodeContext" />
+      <xs:element name="SwitchRules" nillable="true" type="tns:ArrayOfKeyValuePair_V2" />
+      <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/BPM.WF.EDM" name="Task" nillable="true" type="q1:Task" />
+      <xs:element name="TaskId" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ApprovalResult" nillable="true" type="tns:ApprovalResult" />
+  <xs:complexType name="ArrayOfApprovalNodeSkipInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ApprovalNodeSkipInfo" nillable="true" type="tns:ApprovalNodeSkipInfo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfApprovalNodeSkipInfo" nillable="true" type="tns:ArrayOfApprovalNodeSkipInfo" />
+  <xs:complexType name="ApprovalNodeSkipInfo">
+    <xs:sequence>
+      <xs:element name="ApprovalNodeContextName" nillable="true" type="xs:string" />
+      <xs:element name="CanBeSkipped" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ApprovalNodeSkipInfo" nillable="true" type="tns:ApprovalNodeSkipInfo" />
+  <xs:complexType name="ArrayOfKeyValuePair_V2">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="KeyValuePair_V2" nillable="true" type="tns:KeyValuePair_V2" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfKeyValuePair_V2" nillable="true" type="tns:ArrayOfKeyValuePair_V2" />
+  <xs:complexType name="KeyValuePair_V2">
+    <xs:sequence>
+      <xs:element name="Key" nillable="true" type="xs:string" />
+      <xs:element name="Value" nillable="true" type="xs:anyType" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="KeyValuePair_V2" nillable="true" type="tns:KeyValuePair_V2" />
+  <xs:simpleType name="ApprovalOpinion">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="拒绝" />
+      <xs:enumeration value="同意" />
+      <xs:enumeration value="签收确认" />
+      <xs:enumeration value="超时" />
+      <xs:enumeration value="系统取消" />
+      <xs:enumeration value="NA" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="ApprovalOpinion" nillable="true" type="tns:ApprovalOpinion" />
+  <xs:complexType name="ArrayOfApprovalNodeContext">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ApprovalNodeContext" nillable="true" type="tns:ApprovalNodeContext" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfApprovalNodeContext" nillable="true" type="tns:ArrayOfApprovalNodeContext" />
+  <xs:complexType name="ApprovalNodeContext">
+    <xs:sequence>
+      <xs:element name="ApprovalUnitContexts" nillable="true" type="tns:ArrayOfApprovalUnitContext" />
+      <xs:element name="CanBeSkipped" type="xs:boolean" />
+      <xs:element name="CurrentApproverIndex" type="xs:int" />
+      <xs:element name="Description" nillable="true" type="xs:string" />
+      <xs:element name="ExtData" nillable="true" type="xs:string" />
+      <xs:element name="ID" type="ser:guid" />
+      <xs:element name="MatchConditionType" type="tns:ApprovalNodeMatchConditionType" />
+      <xs:element name="Mode" type="tns:ApproverMode" />
+      <xs:element name="Name" nillable="true" type="xs:string" />
+      <xs:element name="Owner" nillable="true" type="tns:HumanWorkflowContext" />
+      <xs:element name="SwitchNodes" nillable="true" type="xs:string" />
+      <xs:element name="SwitchRulePolicy" type="tns:SwitchRulePolicy" />
+      <xs:element name="SwitchRules" nillable="true" type="tns:ArrayOfSwitchRule" />
+      <xs:element name="TaskGroupID" type="ser:guid" />
+      <xs:element name="_DelaySpan" type="ser:duration" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ApprovalNodeContext" nillable="true" type="tns:ApprovalNodeContext" />
+  <xs:complexType name="ArrayOfApprovalUnitContext">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ApprovalUnitContext" nillable="true" type="tns:ApprovalUnitContext" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfApprovalUnitContext" nillable="true" type="tns:ArrayOfApprovalUnitContext" />
+  <xs:complexType name="ApprovalUnitContext">
+    <xs:sequence>
+      <xs:element name="Approver" nillable="true" type="tns:Approver" />
+      <xs:element name="CanBeSkipped" type="xs:boolean" />
+      <xs:element name="Owner" nillable="true" type="tns:ApprovalNodeContext" />
+      <xs:element name="Result" nillable="true" type="tns:ApprovalResult" />
+      <xs:element name="SkipCondition" nillable="true" type="xs:string" />
+      <xs:element name="TaskID" type="ser:guid" />
+      <xs:element name="_BookmarkName" nillable="true" type="xs:string" />
+      <xs:element name="_DelaySpan" type="ser:duration" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ApprovalUnitContext" nillable="true" type="tns:ApprovalUnitContext" />
+  <xs:complexType name="Approver">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NodeName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Value" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ValueType" type="tns:ApproverValueType" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Approver" nillable="true" type="tns:Approver" />
+  <xs:simpleType name="ApproverValueType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="ADAccount" />
+      <xs:enumeration value="VirtualRole" />
+      <xs:enumeration value="DepartmentAndRole" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="ApproverValueType" nillable="true" type="tns:ApproverValueType" />
+  <xs:simpleType name="ApprovalNodeMatchConditionType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="必须全部同意" />
+      <xs:enumeration value="一个同意即可" />
+      <xs:enumeration value="有一个不同意则退出" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="ApprovalNodeMatchConditionType" nillable="true" type="tns:ApprovalNodeMatchConditionType" />
+  <xs:simpleType name="ApproverMode">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="串行" />
+      <xs:enumeration value="并行" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="ApproverMode" nillable="true" type="tns:ApproverMode" />
+  <xs:complexType name="HumanWorkflowContext">
+    <xs:sequence>
+      <xs:element xmlns:q2="http://schemas.microsoft.com/2003/10/Serialization/Arrays" name="ApprovalNodeContexts" nillable="true" type="q2:ArrayOfKeyValueOfstringApprovalNodeContextlJovGu0W" />
+      <xs:element name="EFormEntitySetName" nillable="true" type="xs:string" />
+      <xs:element name="EFormID" type="ser:guid" />
+      <xs:element name="EFormName" nillable="true" type="xs:string" />
+      <xs:element xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays" name="ExtendedProperties" nillable="true" type="q3:ArrayOfKeyValueOfstringanyType" />
+      <xs:element name="SwitchRules" nillable="true" type="tns:ArrayOfKeyValuePair_V2" />
+      <xs:element name="WorkflowInstanceID" type="ser:guid" />
+      <xs:element name="WorkflowTemplateName" nillable="true" type="xs:string" />
+      <xs:element name="WorkflowTemplateVersion" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="HumanWorkflowContext" nillable="true" type="tns:HumanWorkflowContext" />
+  <xs:simpleType name="SwitchRulePolicy">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="NextNode" />
+      <xs:enumeration value="Disable" />
+      <xs:enumeration value="UserSpecified" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="SwitchRulePolicy" nillable="true" type="tns:SwitchRulePolicy" />
+  <xs:complexType name="ArrayOfSwitchRule">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="SwitchRule" nillable="true" type="tns:SwitchRule" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfSwitchRule" nillable="true" type="tns:ArrayOfSwitchRule" />
+  <xs:complexType name="SwitchRule">
+    <xs:sequence>
+      <xs:element xmlns:q4="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="NextActions" nillable="true" type="q4:ArrayOfstring" />
+      <xs:element minOccurs="0" name="NodeName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="SwitchRule" nillable="true" type="tns:SwitchRule" />
+</xs:schema>
