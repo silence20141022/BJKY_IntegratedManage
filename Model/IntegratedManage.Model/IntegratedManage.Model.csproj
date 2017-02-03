@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4F569840-B877-404A-BD1A-B3C2D966F042}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IntegratedManage.Model</RootNamespace>
+    <AssemblyName>IntegratedManage.Model</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Aim.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\Aim.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.ActiveRecord, Version=2.1.2.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Framework\Aim.Resources\libs\Castle.ActiveRecord.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=3.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Framework\Aim.Resources\libs\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Framework\Aim.Resources\libs\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="PostSharp, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b13fd38b8f9c99d7, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Customed\AbsenceApply.cs" />
+    <Compile Include="Customed\A_ChargeProgres.cs" />
+    <Compile Include="Customed\A_TaskAttachment.cs" />
+    <Compile Include="Customed\A_TaskWBS.cs" />
+    <Compile Include="Customed\BringUnit.cs" />
+    <Compile Include="Customed\EnterpriseAddrBook.cs" />
+    <Compile Include="Customed\Holiday.cs" />
+    <Compile Include="Customed\HongTouFile.cs" />
+    <Compile Include="Customed\InstituteLeader.cs" />
+    <Compile Include="Customed\IntegratedConfig.cs" />
+    <Compile Include="Customed\IntegratedMessage.cs" />
+    <Compile Include="Customed\LeaderTrip.cs" />
+    <Compile Include="Customed\MeettingMgmt.cs" />
+    <Compile Include="Customed\MeettingUser.cs" />
+    <Compile Include="Customed\MyAddressBook.cs" />
+    <Compile Include="Customed\MyShortCut.cs" />
+    <Compile Include="Customed\NotePad.cs" />
+    <Compile Include="Customed\QuestionContent.cs" />
+    <Compile Include="Customed\QuestionItem.cs" />
+    <Compile Include="Customed\ReceiveDocument.cs" />
+    <Compile Include="Customed\ReceiveManage.cs" />
+    <Compile Include="Customed\ReleaseDocument.cs" />
+    <Compile Include="Customed\ReleaseTemplate.cs" />
+    <Compile Include="Customed\Rule_Regulation.cs" />
+    <Compile Include="Customed\Rule_Regulation_AdminAuth.cs" />
+    <Compile Include="Customed\Rule_Regulation_BrowseAuth.cs" />
+    <Compile Include="Customed\Rule_Regulation_BrowseDept.cs" />
+    <Compile Include="Customed\Seal.cs" />
+    <Compile Include="Customed\SignRequest.cs" />
+    <Compile Include="Customed\SurveryedUser.cs" />
+    <Compile Include="Customed\SurveyCommitHistory.cs" />
+    <Compile Include="Customed\SurveyQuestion.cs" />
+    <Compile Include="Customed\SurveyResult.cs" />
+    <Compile Include="Customed\SurveyScanUser.cs" />
+    <Compile Include="Customed\TaskDelegate.cs" />
+    <Compile Include="Customed\Vedio.cs" />
+    <Compile Include="Customed\WebLink.cs" />
+    <Compile Include="Customed\WorkTimeFact.cs" />
+    <Compile Include="EditSensityTreeNodeEntityBase.cs" />
+    <Compile Include="Generated\AbsenceApply.g.cs" />
+    <Compile Include="Generated\A_ChargeProgres.g.cs" />
+    <Compile Include="Generated\A_TaskAttachment.g.cs" />
+    <Compile Include="Generated\A_TaskWBS.g.cs" />
+    <Compile Include="Generated\BringUnit.g.cs" />
+    <Compile Include="Generated\EnterpriseAddrBook.g.cs" />
+    <Compile Include="Generated\Holiday.g.cs" />
+    <Compile Include="Generated\HongTouFile.g.cs" />
+    <Compile Include="Generated\InstituteLeader.g.cs" />
+    <Compile Include="Generated\IntegratedConfig.g.cs" />
+    <Compile Include="Generated\IntegratedMessage.g.cs" />
+    <Compile Include="Generated\LeaderTrip.g.cs" />
+    <Compile Include="Generated\MeettingMgmt.g.cs" />
+    <Compile Include="Generated\MeettingUser.g.cs" />
+    <Compile Include="Generated\MyAddressBook.g.cs" />
+    <Compile Include="Generated\MyShortCut.g.cs" />
+    <Compile Include="Generated\NotePad.g.cs" />
+    <Compile Include="Generated\QuestionContent.g.cs" />
+    <Compile Include="Generated\QuestionItem.g.cs" />
+    <Compile Include="Generated\ReceiveDocument.g.cs" />
+    <Compile Include="Generated\ReceiveManage.g.cs" />
+    <Compile Include="Generated\ReleaseDocument.g.cs" />
+    <Compile Include="Generated\ReleaseTemplate.g.cs" />
+    <Compile Include="Generated\Rule_Regulation.g.cs" />
+    <Compile Include="Customed\Rule_RegulationType.cs" />
+    <Compile Include="Generated\Rule_RegulationType.g.cs" />
+    <Compile Include="Generated\Rule_Regulation_AdminAuth.g.cs" />
+    <Compile Include="Generated\Rule_Regulation_BrowseAuth.g.cs" />
+    <Compile Include="Generated\Rule_Regulation_BrowseDept.g.cs" />
+    <Compile Include="Generated\Seal.g.cs" />
+    <Compile Include="Generated\SignRequest.g.cs" />
+    <Compile Include="Generated\SurveryedUser.g.cs" />
+    <Compile Include="Generated\SurveyCommitHistory.g.cs" />
+    <Compile Include="Generated\SurveyQuestion.g.cs" />
+    <Compile Include="Generated\SurveyResult.g.cs" />
+    <Compile Include="Generated\SurveyScanUser.g.cs" />
+    <Compile Include="Generated\TaskDelegate.g.cs" />
+    <Compile Include="Generated\Vedio.g.cs" />
+    <Compile Include="Generated\V_TaskWBS.g.cs" />
+    <Compile Include="Generated\WebLink.g.cs" />
+    <Compile Include="Generated\WorkTimeFact.g.cs" />
+    <Compile Include="IMModelBase.cs" />
+    <Compile Include="ModelBase.cs" />
+    <Compile Include="ModelTreeNodeEntityBase.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Framework\Aim.Portal\Aim.Portal.csproj">
+      <Project>{A19B8322-D5A3-42F7-A6AF-0C1B3B4DA7BD}</Project>
+      <Name>Aim.Portal</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
